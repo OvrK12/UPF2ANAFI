@@ -6,7 +6,9 @@ This repository contains installation instructions and the required code to run 
 
 * [System Architecture](#system-architecture)
 * [System Requirements](#system-requirements)
+* [Installation](#installation)
 * [Usage](#usage)
+* [Roadmap](#roadmap)
 
 ## System Architecture
 Below you can find an overview of the system architecture. If you compare the architecture to the [REAP-Framework](https://github.com/UniBwM-IFS-AILab/REAP) with open-source components, you can see that the AI-Planning side remains untouched. The Validation & Visualization side is completely replaced with Parrot specific components. External environment manipulation via Remote Control API or AirSim API is not possible with this setup (however, there might be ways to achieve environment manipulation with other tools, but this was not tested). QGroundControl still works, but Parrot allows only for one controller at the same time. This means that ...
@@ -14,6 +16,9 @@ Below you can find an overview of the system architecture. If you compare the ar
 ![System_diagram_layered drawio](https://github.com/UniBwM-IFS-AILab/UPF2ANAFI/assets/92592126/8353f818-a099-4580-8d25-95759a1f1d8b)
 
 ## System Requirements
+## Installation
 ## Usage
 
 ros2 launch upf2anafi anafi_offboard.launch.py
+
+## Roadmap
