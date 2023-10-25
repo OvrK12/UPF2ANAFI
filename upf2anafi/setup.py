@@ -24,7 +24,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'anafi_interface = upf2anafi.anafi_interface:main'
+            'anafi_offboard = upf2anafi.anafi_offboard:main'
         ],
     },
 )

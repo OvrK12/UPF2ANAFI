@@ -11,16 +11,16 @@ def launch_setup(context, *args, **kwargs):
     launch_array =  []
     
     for i in range(0,drone_count):
-        anafi_interface_node = Node(
+        anafi_offboard_node = Node(
             package=pkg_name,
-            executable="anafi_interface",
-            name="anafi_interface" + str(i),
+            executable="anafi_offboard",
+            name="anafi_offboard" + str(i),
             parameters=[
                 {'drone_prefix': 'vhcl'+ str(i) +'/'}
             ],
             emulate_tty=True,
             output='screen')
-        launch_array.append(anafi_interface_node)
+        launch_array.append(anafi_offboard_node)
         
     return launch_array
 
