@@ -6,6 +6,11 @@ This repository contains installation instructions and the required code to run 
 * [System Requirements](#system-requirements)
 * [System Architecture](#system-architecture)
 * [Installation](#installation)
+  + [AI Planning Setup]
+  + [Parrot Sphinx]
+  + [Parrot Olympe]
+  + [anafi_ros Bridge]
+  + [UPF2ANAFI Action Server]
 * [Usage](#usage)
 * [Roadmap](#roadmap)
 
